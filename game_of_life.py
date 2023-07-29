@@ -62,7 +62,7 @@ def onclick(event):
 
 
 def pause(event):
-    global paused, anim
+    global paused
     if event.key == "control":
         paused = not paused
 
