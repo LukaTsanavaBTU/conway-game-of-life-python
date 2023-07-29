@@ -6,6 +6,7 @@ height = 100
 width = 100
 
 space = np.zeros((height, width))
+space[0, 0] = 1
 
 
 def space_cycle():
@@ -61,7 +62,7 @@ def onclick(event):
 
 
 def pause(event):
-    global paused
+    global paused, anim
     if event.key == "control":
         paused = not paused
 
@@ -69,7 +70,7 @@ def pause(event):
 fig, ax = plt.subplots()
 im = plt.imshow(space)
 anim = animation.FuncAnimation(fig, update, cache_frame_data=False)
-paused = False
+paused = True
 fig.canvas.mpl_connect("button_press_event", onclick)
 fig.canvas.mpl_connect("key_press_event", pause)
 plt.show()
