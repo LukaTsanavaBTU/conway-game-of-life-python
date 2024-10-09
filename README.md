@@ -1,5 +1,5 @@
 # Conway's Game Of Life
-A simulation of [Conway's Game Of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) in Python. It uses Matplotlib to display the simulation. It's also interactive: the "ctrl" key pauses and unpauses the simulation and by clicking the cells you can make them come alive. 
+A simulation of [Conway's Game Of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) in Python. It uses Matplotlib to display the simulation. It's also interactive: the "ctrl" key pauses and unpauses the simulation and by clicking the cells you can make them come alive.<br/>You can download the executable to try it yourself [here.](https://github.com/LukaTsanavaBTU/conway-game-of-life-python/releases/tag/1.0)
 
 ## What I Got To Practice During The Project
 - Python
